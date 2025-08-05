@@ -40,4 +40,19 @@ print('Hello','World')
 #python numbers
 print(random.randrange(1,20))
 
+#python strings
+multi_Intro = """My name is Charls
+and I am a 21 year old CpE Student
+who want to learn and master Python
+as his primary language credential"""
+
+print(multi_Intro)
+
+name = "CHARLS"
+
+for j in name:
+    print(j)
+
+
+
 
