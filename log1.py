@@ -1,4 +1,5 @@
 import sys
+import random
 
 #testing python version
 print(sys.version)
@@ -29,9 +30,14 @@ print(type(a))
 print(b)
 print(c)
 
-color = ["red", "green" ,"blue"]
+color = ["red", "green" ,"blue"] #this is a list
 l, m, n = color # this is called unpacking
 
 print(l , ", " , m , ", " , n)
+
+print('Hello','World')
+
+#python numbers
+print(random.randrange(1,20))
 
 
