@@ -45,14 +45,23 @@
 #else:
 #    print("It's a lovely day!")
 
-house_price = 1000000
-is_good_credit = False
-down_payment = 0
+#house_price = 1000000
+#is_good_credit = False
+#down_payment = 0
 
-if is_good_credit:
-    down_payment = house_price * 0.1
-else:
-    down_payment = house_price * 0.2
+#if is_good_credit:
+#    down_payment = house_price * 0.1
+#else:
+#    down_payment = house_price * 0.2
     
-print(f"Your down payment is Php{int(down_payment)}")
+#print(f"Your down payment is Php{int(down_payment)}")
+
+name = input("Type your name: ")
+
+if len(name) < 3:
+    print("Name must be at least 3 characters long")
+elif len(name) > 50:
+    print("Name can be a maximum of 50 characters")
+else:
+    print("name looks good!")
     
