@@ -20,3 +20,6 @@ functions with parameters
 functions with return
 
 exceptions (try, except)
+
+classes
+classes with constructors
