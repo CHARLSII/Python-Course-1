@@ -1,3 +1,5 @@
+import random
+
 # write a program to remove the duplicates in a list
 
 """
@@ -98,3 +100,16 @@ for x in input_number:
 print(output)
 """
 
+class Dice:
+    def roll(self):
+        dice_roll = (1, 2, 3, 4, 5, 6)
+        
+        dice1 = random.choice(dice_roll)
+        dice2 = random.choice(dice_roll)
+        
+        result = (dice1, dice2)
+        return result
+    
+dice = Dice()
+print(dice.roll())
+    
